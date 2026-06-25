@@ -34,45 +34,46 @@ body {
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
   font-family: "Outfit", sans-serif;
   height: 100vh;
   color: #E5E7EB;
   background-color: #121826;
-  background-image: url("resources/Background_image@2x.png");
+  background-image: url("resources/Background_image.svg");
 }
 
 .container {
   width: 100%;
-  margin: 5rem auto;
+  margin: 3.75rem auto;
 }
 
 .header {
-  margin: 2rem auto;
+  margin: 1rem auto;
   text-align: center;
 }
 
-h1.header__title {
-  font-size: clamp(2rem, 8vw + 1rem, 5rem);
+h1 {
+  font-size: 2.5rem;
   margin-block-end: 2rem;
 }
 
+.header__title--line {
+    display: block;
+}
+
 p.header__text {
-  font-size: clamp(1.5rem, 8vw + 1rem, 1.8rem);
+  font-size: 1rem;
+  font-weight: 400;
   color: #D2D5DA;
 }
 
 .grid-container {
-  width: 120rem;
+  width: 75rem;
   max-width: calc(80% - 20px);
   margin: 0 auto;
   display: grid;
   padding: 0.6rem;
-  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   justify-content: center;
   gap: 12px;
 }
@@ -109,19 +110,18 @@ p.header__text {
 
 .card__circle-emoji {
   font-family: "emoji", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 40%;
+  transform: translate(-40%, -40%);
 }
 
 h2.card__title {
-  font-size: clamp(1.8rem, 8vw + 1rem, 1.9rem);
+  font-size: 1.25rem;
 }
 
 p.card__text {
-  font-size: clamp(1.5rem, 8vw + 1rem, 1.8rem);
   line-height: 1.5;
 }
 
@@ -132,9 +132,6 @@ p.card__text {
 
 @media (min-width: 48rem) {
   .container {
-    margin: 10rem auto;
-  }
-  .header {
-    width: 37%;
+    margin: 5rem auto;
   }
 }
