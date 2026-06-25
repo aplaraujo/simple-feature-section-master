@@ -1,44 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 
-    <title>Simple Feature Section | devChallenges.io</title>
+  <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+  <title>Simple Feature Section | devChallenges.io</title>
 
-      body {
-        height: 100vh;
-      }
+</head>
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+<body>
 
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- 
+  <main class="container">
+    <header class="header">
+      <h1 class="header__title">Quality feedbacks for your SaaS products</h1>
+      <p class="header__text">The blocks & components you need</p>
+    </header>
+    <section class="grid-container">
+
+      <div class="card">
+        <div class="card__circle-one">
+          <div class="card__circle-emoji">✋</div>
+        </div>
+        <h2 class="card__title">Collect Feedback at Multiple Touchpoints</h2>
+        <p class="card__text">Provide a comprehensive understanding of the customer experience.</p>
+        <div class="card__image">
+          <img src="resources/photo_2@2x.png" alt="photo_2">
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__circle-two">
+          <div class="card__circle-emoji">🥅</div>
+        </div>
+        <h2 class="card__title">Ask Targeted and Specific Questions</h2>
+        <p class="card__text">Avoid vague or open-ended questions that may not yield actionable insights.</p>
+        <div class="card__image">
+          <img src="resources/photo_1@2x.png" alt="photo_1">
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__circle-three">
+          <div class="card__circle-emoji">💬</div>
+        </div>
+        <h2 class="card__title">Prioritize and Respond to Feedback</h2>
+        <p class="card__text">Communicate the changes or improvements you've made in response to their feedback.
+        </p>
+        <div class="card__image">
+          <img src="resources/photo_3@2x.png" alt="photo_3">
+        </div>
+      </div>
+
+
+
+
+    </section>
+  </main>
+
+  <!-- <main class="container">
+    <header class="header">
+      <h1 class="header__title">Quality feedbacks for your SaaS products</h1>
+      <p class="header__text">The blocks & components you need</p>
+    </header>
+    <section class="card">
+      <div class="card__container">
+        <div class="card__item">
+          <div class="card__item-circle"></div>
+          <h2 class="card__item-title">Collect Feedback at Multiple Touchpoints</h2>
+          <p class="card__item-text">Provide a comprehensive understanding of the customer experience.</p>
+          <div class="card__item-image"></div>
+        </div>
+
+        <div class="card__item">
+          <div class="card__item-circle"></div>
+          <h2 class="card__item-title">Ask Targeted and Specific Questions</h2>
+          <p class="card__item-text">Avoid vague or open-ended questions that may not yield actionable insights.</p>
+          <div class="card__item-image"></div>
+        </div>
+
+        <div class="card__item">
+          <div class="card__item-circle"></div>
+          <h2 class="card__item-title">Prioritize and Respond to Feedback</h2>
+          <p class="card__item-text">Communicate the changes or improvements you've made in response to their feedback.</p>
+          <div class="card__item-image"></div>
+        </div>
+      </div>
+    </section>
+  </main> -->
+
+  <!-- 
      ✋
     
      🥅
@@ -63,11 +120,6 @@
     
     -->
 
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
-    </div>
-  </body>
+</body>
+
 </html>
